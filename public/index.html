@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>推理ノベル選択式クイズ</title>
+  <title>推理</title>
   <style>
     body {
       background: #111 url('dark_bg.jpg') no-repeat center center fixed;
@@ -63,7 +63,7 @@
 </head>
 <body>
 
-  <h1>これまでの推理をまとめよう</h1>
+  <h1>推理パート</h1>
 
   <div class="question-box">
     <p>① 被害者は、誰に熊の毛皮を着せられた？</p>
@@ -113,7 +113,7 @@
         result.innerHTML = "すべての選択肢を選んでください。";
         result.style.color = "#ffcc00";
       } else if (isCorrect) {
-        result.innerHTML = "🎉 そうだ。被害者の佐々木　勇気さんは、睡眠薬で眠らせた後に、熊の毛皮を妻の奈々さんに着せられて、山に放置させられたんだ。猟師に熊と勘違いさせるために。<br>でも、その前に、小次郎君に見つかったんだ。そして、源蔵さんにも……。<br>でも源蔵さんは、撃っている。だけど、撃っているんだ。それは、つまり……";
+        result.innerHTML = "🎉 そうだ。被害者の佐々木　勇気さんは、睡眠薬で眠らせた後に、熊の毛皮を妻の奈々さんに着せられて、山に放置させられたんだ。猟師に熊と勘違いさせるために。<br>でも、その前に、小次郎君に見つかったんだ。そして、源蔵さんにも……。<br>でも源蔵さんは、撃っている。だけど、撃っているんだ。それは、つまり…<br>※エンディングパートへ進んでください。…";
         result.style.color = "#00ff88";
       } else {
         result.innerHTML = "❌ 推理が外れたようだ…もう一度考えてみて。";
